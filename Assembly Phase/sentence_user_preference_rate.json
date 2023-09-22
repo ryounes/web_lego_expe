@@ -1,0 +1,488 @@
+[
+    {
+        "scene": -2,
+        "type": "original",
+        "robot": "Je commence par placer un cube jaune.\n",
+        "worst_NI": "Place un cube bleu sur le cube précédent.",
+        "best_NI": "Place un cube bleu sur le cube jaune.",
+        "without_context": "Place un cube bleu; sur le sommet précédent.\n",
+        "with_context": "Place un cube bleu; sur le sommet précédent.\n"
+    },
+    {
+        "scene": -2,
+        "type": "mirror",
+        "robot": "Je commence par placer un cube rouge.\n",
+        "worst_NI": "Place un cube jaune sur le cube précédent.",
+        "best_NI": "Place un cube jaune sur le cube rouge.",
+        "without_context": "Place un cube jaune; sur le sommet précédent.\n",
+        "with_context": "Place un cube jaune; sur le sommet précédent.\n"
+    },
+    {
+        "scene": -1,
+        "type": "original",
+        "robot": "Je commence en plaçant un cube jaune ici.\n",
+        "worst_NI": "Place un cube bleu à l'Ouest du cube jaune.",
+        "best_NI": "Place un cube bleu à l'Ouest du cube précédent.",
+        "without_context": "Colle un cube bleu; à l'Ouest du cube précédent.\n",
+        "with_context": "Colle un cube bleu; à l'Ouest du cube.\n"
+    },
+    {
+        "scene": -1,
+        "type": "mirror",
+        "robot": "Je commence en plaçant un cube bleu ici.\n",
+        "worst_NI": "Place un cube rouge à l'Est du cube bleu.",
+        "best_NI": "Place un cube rouge à l'Est du cube précédent.",
+        "without_context": "Colle un cube rouge; à l'Est du cube précédent.\n",
+        "with_context": "Colle un cube rouge; à l'Est du cube.\n"
+    },
+    {
+        "scene": 0,
+        "type": "original",
+        "robot": "Avec ce cube jaune je termine l'escalier.\n",
+        "worst_NI": "Colle une barre bleue orientée Nord-Sud à l'Ouest de l'escalier jaune, avec son côté Nord aligné sur le côté Nord de l'escalier jaune. Puis décale la barre bleue de neuf tenons vers l'Ouest, et de deux vers le Nord.",
+        "best_NI": "Place une barre bleue perpendiculairement neuf tenons à l'Ouest de l'escalier jaune. La barre bleue doit être centrée par rapport à l'axe Est-Ouest de l'escalier.",
+        "without_context": "Place une barre bleue orientée Nord-Sud sur la table; à l'Ouest du cube précédent; en laissant neuf tenons libres; la barre bleue doit être centré par rapport à l'axe Est-Ouest du cube précédent.\n",
+        "with_context": "Place une barre bleue orientée Nord-Sud sur la table; à l'Ouest de l'escalier jaune; en laissant neuf tenons libres; la barre bleue doit être centré par rapport à l'axe Est-Ouest de l'escalier.\n"
+    },
+    {
+        "scene": 0,
+        "type": "mirror",
+        "robot": "Je termine l'escalier, en ajoutant ce cube rouge.\n",
+        "worst_NI": "Colle une barre jaune orientée Nord-Sud à l'Est de l'escalier rouge, avec son côté Nord aligné sur le côté Nord de l'escalier rouge. Puis décale la barre jaune de neuf tenons vers l'Est, et de deux vers le Nord.",
+        "best_NI": "Place une barre jaune perpendiculairement neuf tenons à l'Est de l'escalier rouge. La barre jaune doit être centrée par rapport à l'axe Est-Ouest de l'escalier.",
+        "without_context": "Place une barre jaune orientée Nord-Sud sur la table; à l'Est du cube précédent; en laissant neuf tenons libres; la barre jaune doit être centré par rapport à l'axe Est-Ouest du cube précédent.\n",
+        "with_context": "Mets une barre jaune orientée Nord-Sud sur la table; à l'Est de l'escalier rouge; en laissant neuf tenons libres; la barre jaune doit être centré par rapport à l'axe Est-Ouest de l'escalier.\n"
+    },
+    {
+        "scene": 1,
+        "type": "original",
+        "robot": "Je commence par placer une barre jaune.\n",
+        "worst_NI": "Place une barre rouge orientée Nord-Sud, au coin Sud-Ouest de la barre jaune.",
+        "best_NI": "Place une barre rouge orientée Nord-Sud, son coin Nord-Est touchant le coin Sud-Ouest de la barre jaune.",
+        "without_context": "Mets une barre rouge orientée Nord-Sud; au coin Sud-Ouest de la barre précédente.\n",
+        "with_context": "Mets une barre rouge orientée Nord-Sud; au coin Sud-Ouest de la barre jaune.\n"
+    },
+    {
+        "scene": 1,
+        "type": "mirror",
+        "robot": "Je commence par placer une barre bleue.\n",
+        "worst_NI": "Place une barre jaune orientée Nord-Sud, au coin Sud-Est de la barre bleue.",
+        "best_NI": "Place une barre jaune orientée Nord-Sud, son coin Nord-Ouest touchant le coin Sud-Est de la barre bleue.",
+        "without_context": "Mets une barre jaune orientée Nord-Sud; au coin Sud-Est de la barre précédente.\n",
+        "with_context": "Mets une barre jaune orientée Nord-Sud; au coin Sud-Est de la barre bleue.\n"
+    },
+    {
+        "scene": 2,
+        "type": "original",
+        "robot": "Je commence en plaçant une barre jaune.\n",
+        "worst_NI": "Au contact du coin Sud-Ouest de la barre jaune, viens placer le coin Nord-Est d'une barre rouge orientée Est-Ouest.",
+        "best_NI": "Place une barre rouge orientée Est-Ouest, pour que son coin Nord-Est touche le coin Sud-Ouest de la barre jaune.",
+        "without_context": "Place une barre rouge orientée Est-Ouest; au coin Sud-Ouest de la barre précédente.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au coin Sud-Ouest de la barre jaune.\n"
+    },
+    {
+        "scene": 2,
+        "type": "mirror",
+        "robot": "Je commence en plaçant une barre rouge.\n",
+        "worst_NI": "Au contact du coin Sud-Est de la barre rouge, viens placer le coin Nord-Ouest d'une barre bleue orientée Est-Ouest.",
+        "best_NI": "Place une barre bleue orientée Est-Ouest, pour que son coin Nord-Ouest touche le coin Sud-Est de la barre rouge.",
+        "without_context": "Place une barre bleue orientée Est-Ouest; au coin Sud-Est de la barre précédente.\n",
+        "with_context": "Mets une barre bleue orientée Est-Ouest; au coin Sud-Est de la barre rouge.\n"
+    },
+    {
+        "scene": 3,
+        "type": "original",
+        "robot": "Je commence par placer une barre jaune.\n",
+        "worst_NI": "Aligne sur l'axe Nord-Sud une barre rouge Est-Ouest au contact de la face Sud de la barre jaune, puis décale-la de trois tenons vers l'Ouest.",
+        "best_NI": "Place une barre rouge le long de la face Sud de la barre jaune, décalée de trois tenons vers l'Ouest.",
+        "without_context": "Colle une barre rouge orientée Est-Ouest; son côté Nord doit être aligné avec le côté Sud de la barre précédente; et dont le côté Est doit être aligné avec celui de la barre précédente. Puis décale-la, de trois tenons vers l'Ouest.\n",
+        "with_context": "Colle une barre rouge orientée Est-Ouest; son côté Nord doit être aligné avec le côté Sud de la barre jaune; et dont le côté Est doit être aligné avec celui de la barre jaune. Puis décale-la, de trois tenons vers l'Ouest.\n"
+    },
+    {
+        "scene": 3,
+        "type": "mirror",
+        "robot": "Je commence par placer une barre bleue.\n",
+        "worst_NI": "Aligne sur l'axe Nord-Sud une barre jaune Est-Ouest au contact de la face Sud de la barre bleue, puis décale-la de trois tenons vers l'Est.",
+        "best_NI": "Place une barre jaune le long de la face Sud de la barre bleue, décalée de trois tenons vers l'Est.",
+        "without_context": "Colle une barre jaune orientée Est-Ouest; son côté Nord doit être aligné avec le côté Sud de la barre précédente; et dont le côté Ouest doit être aligné avec celui de la barre précédente. Puis décale-la, de trois tenons vers l'Est.\n",
+        "with_context": "Colle une barre jaune orientée Est-Ouest; son côté Nord doit être aligné avec le côté Sud de la barre bleue; et dont le côté Ouest doit être aligné avec celui de la barre bleue. Puis décale-la, de trois tenons vers l'Est.\n"
+    },
+    {
+        "scene": 4,
+        "type": "original",
+        "robot": "Je commence en plaçant une barre jaune.\n",
+        "worst_NI": "Colle une barre rouge orientée Est-Ouest au Sud de la barre jaune, puis décale la barre rouge de deux tenons vers le Sud. Les bords Est et Ouest des deux barres doivent être alignés.",
+        "best_NI": "Aligne une barre rouge au Sud de la barre jaune, en laissant deux tenons libres.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; au Sud de la barre précédente; en laissant deux tenons libres.\n",
+        "with_context": "Mets une barre rouge orientée Est-Ouest; au Sud de la barre jaune; en laissant deux tenons libres.\n"
+    },
+    {
+        "scene": 4,
+        "type": "mirror",
+        "robot": "Je commence par placer une barre rouge.\n",
+        "worst_NI": "Colle une barre bleue orientée Est-Ouest au Sud de la barre rouge, puis décale la barre bleue de deux tenons vers le Sud. Les bords Ouest et Est des deux barres doivent être alignés.",
+        "best_NI": "Aligne une barre bleue au Sud de la barre rouge, en laissant deux tenons libres.",
+        "without_context": "Mets une barre bleue orientée Est-Ouest; au Sud de la barre précédente; en laissant deux tenons libres.\n",
+        "with_context": "Mets une barre bleue orientée Est-Ouest; au Sud de la barre rouge; en laissant deux tenons libres.\n"
+    },
+    {
+        "scene": 5,
+        "type": "original",
+        "robot": "Je commence en plaçant une barre jaune.\n",
+        "worst_NI": "Place une barre rouge quatre tenons au Sud de la barre jaune, puis décale la barre d'un tenon vers l'Est. La barre jaune et la barre rouge ne se touchent pas et ne sont pas alignées.",
+        "best_NI": "Aligne une barre rouge au Sud de la barre jaune, en laissant quatre tenons libres. Puis décale-la d'un tenon vers l'Est.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; au Sud de la barre précédente; en laissant quatre tenons libres; et dont le côté Ouest doit être aligné avec celui de la barre précédente. Puis décale-la, d'un tenon vers l'Est.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au Sud de la barre jaune; en laissant quatre tenons libres; et dont le côté Ouest doit être aligné avec celui de la barre jaune. Puis décale-la, d'un tenon vers l'Est.\n"
+    },
+    {
+        "scene": 5,
+        "type": "mirror",
+        "robot": "Je commence par placer une barre bleue.\n",
+        "worst_NI": "Place une barre jaune quatre tenons au Sud de la barre bleue, puis décale la barre d'un tenon vers l'Ouest. La barre bleue et la barre jaune ne se touchent pas et ne sont pas alignées.",
+        "best_NI": "Aligne une barre jaune au Sud de la barre bleue, en laissant quatre tenons libres. Puis décale-la d'un tenon vers l'Ouest.",
+        "without_context": "Mets une barre jaune orientée Est-Ouest; au Sud de la barre précédente; en laissant quatre tenons libres; et dont le côté Est doit être aligné avec celui de la barre précédente. Puis décale-la, d'un tenon vers l'Ouest.\n",
+        "with_context": "Mets une barre jaune orientée Est-Ouest; au Sud de la barre bleue; en laissant quatre tenons libres; et dont le côté Est doit être aligné avec celui de la barre bleue. Puis décale-la, d'un tenon vers l'Ouest.\n"
+    },
+    {
+        "scene": 6,
+        "type": "original",
+        "robot": "Je finis la tour, en ajoutant un cube rouge ici.\n",
+        "worst_NI": "Place une barre bleue orientée Est-Ouest sur le cube rouge. Les coins Nord-Ouest sont alignés. La barre bleue doit également être sur le cube jaune.",
+        "best_NI": "Place une barre bleue en recouvrant la tour rouge et l'escalier jaune. La barre bleue ne doit dépasser d’aucun côté.",
+        "without_context": "Mets une barre bleue orientée Est-Ouest; dont la partie Ouest est positionnée sur le sommet précédent.\n",
+        "with_context": "Pour faire un pont, mets une barre bleue orientée Est-Ouest; qui recouvre exactement le sommet jaune de l'escalier et le sommet rouge de la tour.\n"
+    },
+    {
+        "scene": 6,
+        "type": "mirror",
+        "robot": "Pour terminer la tour, j'ajoute un cube bleu.\n",
+        "worst_NI": "Place une barre jaune orientée Est-Ouest sur le cube bleu. Les coins Nord-Est sont alignés. La barre jaune doit également être sur le cube rouge.",
+        "best_NI": "Place une barre jaune en recouvrant la tour bleu et l'escalier rouge. La barre jaune ne doit dépasser d’aucun côté.",
+        "without_context": "Mets une barre jaune orientée Est-Ouest; dont la partie Est est positionnée sur le sommet précédent.\n",
+        "with_context": "Pour faire un pont, place une barre jaune orientée Est-Ouest; qui recouvre exactement le sommet rouge de l'escalier et le sommet bleu de la tour.\n"
+    },
+    {
+        "scene": 7,
+        "type": "original",
+        "robot": "J'achève la tour, avec un cube rouge.\n",
+        "worst_NI": "Place une barre bleue à cheval sur les deux tours rouges, pour former une arche. La barre bleue doit couvrir tous les tenons des piliers.",
+        "best_NI": "Place une barre bleue qui recouvre exactement les deux tours rouges.",
+        "without_context": "Place une barre bleue orientée Nord-Sud; dont la partie Sud est positionnée sur le sommet précédent.\n",
+        "with_context": "Pour faire un pont, mets une barre bleue orientée Nord-Sud; qui recouvre exactement le sommet rouge de la tour et le sommet rouge de la tour.\n"
+    },
+    {
+        "scene": 7,
+        "type": "mirror",
+        "robot": "Je termine la tour, en ajoutant ce cube jaune.\n",
+        "worst_NI": "Place une barre rouge à cheval sur les deux tours jaunes, pour former une arche. La barre rouge doit couvrir tous les tenons des piliers.",
+        "best_NI": "Place une barre rouge qui recouvre exactement les deux tours jaunes.",
+        "without_context": "Mets une barre rouge orientée Nord-Sud; dont la partie Sud est positionnée sur le sommet précédent.\n",
+        "with_context": "Pour faire un pont, mets une barre rouge orientée Nord-Sud; qui recouvre exactement le sommet jaune de la tour et le sommet jaune de la tour.\n"
+    },
+    {
+        "scene": 8,
+        "type": "original",
+        "robot": "Pour terminer la tour Sud, je mets un cube rouge ici.\n",
+        "worst_NI": "Empile une barre bleue orientée Est-Ouest pour recouvrir exactement le haut de l'escalier, et le pilier qui est à l'Ouest de ce dernier.",
+        "best_NI": "Dépose une barre bleue recouvrant complètement la tour rouge au Nord et le sommet de l'escalier jaune.",
+        "without_context": "Place une barre bleue orientée Est-Ouest dont le côté Ouest doit être aligné avec celui du cube précédent laissant deux tenons libres vers le Nord.\n",
+        "with_context": "Pour faire un pont, place une barre bleue orientée Est-Ouest qui recouvre le sommet jaune de l'escalier et le sommet rouge de la tour Nord.\n"
+    },
+    {
+        "scene": 8,
+        "type": "mirror",
+        "robot": "Pour terminer la tour Sud, je mets un cube bleu ici.\n",
+        "worst_NI": "Empile une barre jaune orientée Est-Ouest pour recouvrir exactement le haut de l'escalier, et le pilier qui est à l'Est de ce dernier.",
+        "best_NI": "Dépose une barre jaune recouvrant complètement la tour bleu au Nord et le sommet de l'escalier rouge.",
+        "without_context": "Place une barre jaune orientée Est-Ouest dont le côté Est doit être aligné avec celui du cube précédent laissant deux tenons libres vers le Nord.\n",
+        "with_context": "Pour faire un pont, place une barre jaune orientée Est-Ouest qui recouvre exactement le sommet rouge de l'escalier et le sommet bleu de la tour Nord.\n"
+    },
+    {
+        "scene": 9,
+        "type": "original",
+        "robot": "Avec ce cube jaune je complète la croix.\n",
+        "worst_NI": "Place un cube bleu sept tenons à l'Ouest de la barre Est-Ouest de la croix jaune. Le cube et la croix sont alignés selon l'axe Est-Ouest.",
+        "best_NI": "Aligne sur l'axe Est-Ouest un cube bleu sept tenons à l'Ouest de la barre jaune.",
+        "without_context": "Place un cube bleu; à l'Ouest du cube précédent; son côté Sud doit être aligné avec le côté Nord du cube précédent; en laissant neuf tenons libres.\n",
+        "with_context": "Mets un cube bleu; à l'Ouest de la croix jaune; en laissant sept tenons libres; le cube bleu doit être centré par rapport à l'axe Est-Ouest de la croix.\n"
+    },
+    {
+        "scene": 9,
+        "type": "mirror",
+        "robot": "J'achève la croix, avec un cube bleu.\n",
+        "worst_NI": "Place un cube rouge sept tenons à l'Est de la barre Est-Ouest de la croix bleu. Le cube et la croix sont alignés selon l'axe Est-Ouest.",
+        "best_NI": "Aligne sur l'axe Est-Ouest un cube rouge sept tenons à l'Est de la barre bleue.",
+        "without_context": "Mets un cube rouge; à l'Est du cube précédent; son côté Sud doit être aligné avec le côté Nord du cube précédent; en laissant neuf tenons libres.\n",
+        "with_context": "Mets un cube rouge; à l'Est de la croix bleue; en laissant sept tenons libres; le cube rouge doit être centré par rapport à l'axe Est-Ouest de la croix.\n"
+    },
+    {
+        "scene": 10,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute un cube jaune.\n",
+        "worst_NI": "Sur l’axe Est-Ouest de la croix, place un cube bleu à l’Ouest en laissant huit tenons libres. Puis décale-le de cinq tenons vers le Sud.",
+        "best_NI": "Colle un cube bleu à la face Sud de la croix. Puis décale-le d'un tenon vers le Sud et de douze tenons vers l'Ouest.",
+        "without_context": "Mets un cube bleu; à l'Ouest du cube précédent; en laissant dix tenons libres; et un tenon libre vers le Sud.\n",
+        "with_context": "Place un cube bleu; à l'Ouest de la croix jaune; en laissant huit tenons libres; et un tenon libre vers le Sud.\n"
+    },
+    {
+        "scene": 10,
+        "type": "mirror",
+        "robot": "Je termine la croix, en ajoutant ce cube rouge.\n",
+        "worst_NI": "Sur l’axe Est-Ouest de la croix, place un cube jaune à l’Est en laissant huit tenons libres. Puis décale-le de cinq tenons vers le Sud.",
+        "best_NI": "Colle un cube jaune à la face Sud de la croix. Puis décale-le d'un tenon vers le Sud et de douze tenons vers l'Est.",
+        "without_context": "Place un cube jaune; à l'Est du cube précédent; en laissant dix tenons libres; et un tenon libre vers le Sud.\n",
+        "with_context": "Mets un cube jaune; à l'Est de la croix rouge; en laissant huit tenons libres; et un tenon libre vers le Sud.\n"
+    },
+    {
+        "scene": 11,
+        "type": "original",
+        "robot": "Je pose un cube jaune pour former la croix.\n",
+        "worst_NI": "Place un cube bleu au Sud de la barre jaune et à l'Ouest du cube Sud de la croix jaune. Le cube bleu doit toucher la barre jaune et le cube précédent.",
+        "best_NI": "Bouche le trou Sud-Ouest de la croix avec un cube bleu.",
+        "without_context": "Place un cube bleu; son côté Est doit être aligné avec le côté Ouest du cube précédent.\n",
+        "with_context": "Mets un cube bleu; son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix jaune; et son côté Sud doit être aligné avec celui le plus au Sud de la croix.\n"
+    },
+    {
+        "scene": 11,
+        "type": "mirror",
+        "robot": "Pour terminer la croix, j'ajoute un cube bleu.\n",
+        "worst_NI": "Place un cube rouge au Sud de la barre bleue et à l'Est du cube Sud de la croix bleu. Le cube rouge doit toucher la barre bleue et le cube précédent.",
+        "best_NI": "Bouche le trou Sud-Est de la croix avec un cube rouge.",
+        "without_context": "Place un cube rouge; son côté Ouest doit être aligné avec le côté Est du cube précédent.\n",
+        "with_context": "Place un cube rouge; son côté Est doit être aligné avec celui le plus à l'Est de la croix bleue; et son côté Sud doit être aligné avec celui le plus au Sud de la croix.\n"
+    },
+    {
+        "scene": 12,
+        "type": "original",
+        "robot": "Avec ce cube jaune je complète la croix.\n",
+        "worst_NI": "Place un cube bleu collé au coin Sud-Ouest du cube précédent.",
+        "best_NI": "Place un cube bleu au coin Sud-Ouest du cube au Sud de la croix jaune. Le cube et la croix ne se touchent que par un coin.",
+        "without_context": "Place un cube bleu; au coin Sud-Ouest du cube précédent.\n",
+        "with_context": "Place un cube bleu; son côté Nord doit être aligné avec le côté le plus au Sud de la croix jaune; et son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix.\n"
+    },
+    {
+        "scene": 12,
+        "type": "mirror",
+        "robot": "Avec ce cube rouge je complète la croix.\n",
+        "worst_NI": "Place un cube jaune collé au coin Sud-Est du cube précédent.",
+        "best_NI": "Place un cube jaune au coin Sud-Est du cube au Sud de la croix rouge. Le cube et la croix ne se touchent que par un coin.",
+        "without_context": "Mets un cube jaune; au coin Sud-Est du cube précédent.\n",
+        "with_context": "Place un cube jaune; son côté Nord doit être aligné avec le côté le plus au Sud de la croix rouge; et son côté Est doit être aligné avec celui le plus à l'Est de la croix.\n"
+    },
+    {
+        "scene": 13,
+        "type": "original",
+        "robot": "Pour terminer la croix, je mets un cube jaune ici.\n",
+        "worst_NI": "Place un cube bleu, ayant son côté Est aligné sur celui le plus à l'Ouest de la croix jaune, et son côté Sud aligné sur celui du cube précédent.",
+        "best_NI": "Colle un cube bleu directement à l'Ouest du cube précédent. Puis décale-le de deux tenons vers l'Ouest.",
+        "without_context": "Place un cube bleu; à l'Ouest du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube bleu; son côté Est doit être aligné avec le côté le plus à l'Ouest de la croix jaune; et son côté Sud doit être aligné avec celui le plus au Sud de la croix.\n"
+    },
+    {
+        "scene": 13,
+        "type": "mirror",
+        "robot": "J'achève la croix, avec un cube bleu.\n",
+        "worst_NI": "Place un cube rouge, ayant son côté Ouest aligné sur celui le plus à l'Est de la croix bleu, et son côté Sud aligné sur celui du cube précédent.",
+        "best_NI": "Colle un cube rouge directement à l'Est du cube précédent. Puis décale-le de deux tenons vers l'Est.",
+        "without_context": "Mets un cube rouge; à l'Est du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube rouge; son côté Ouest doit être aligné avec le côté le plus à l'Est de la croix bleue; et son côté Sud doit être aligné avec celui le plus au Sud de la croix.\n"
+    },
+    {
+        "scene": 14,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute un cube jaune.\n",
+        "worst_NI": "Place un cube bleu en alignant le bord Ouest sur celui de la croix jaune, puis en descendant au Sud pour laisser quatre tenons libres.",
+        "best_NI": "Colle un cube bleu à l'Ouest du cube précédent, puis décale-le de quatre tenons vers le Sud.",
+        "without_context": "Place un cube bleu; au Sud du cube précédent; son côté Est doit être aligné avec le côté Ouest du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube bleu; au Sud de la croix jaune; en laissant deux tenons libres; et son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix.\n"
+    },
+    {
+        "scene": 14,
+        "type": "mirror",
+        "robot": "Je pose un cube rouge pour former la croix.\n",
+        "worst_NI": "Place un cube jaune en alignant le bord Est sur celui de la croix rouge, puis en descendant au Sud pour laisser quatre tenons libres.",
+        "best_NI": "Colle un cube jaune à l'Est du cube précédent, puis décale-le de quatre tenons vers le Sud.",
+        "without_context": "Place un cube jaune; au Sud du cube précédent; son côté Ouest doit être aligné avec le côté Est du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube jaune; au Sud de la croix rouge; en laissant deux tenons libres; et son côté Est doit être aligné avec celui le plus à l'Est de la croix.\n"
+    },
+    {
+        "scene": 15,
+        "type": "original",
+        "robot": "Je finis la croix, en ajoutant un cube jaune ici.\n",
+        "worst_NI": "Dans la direction Sud de la croix, place un cube bleu en laissant deux tenons libres.",
+        "best_NI": "Place un cube bleu deux tenons libres au Sud du cube précédent.",
+        "without_context": "Place un cube bleu; au Sud du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube bleu; au Sud de la croix jaune; en laissant deux tenons libres; le cube bleu doit être centré par rapport à l'axe Nord-Sud de la croix.\n"
+    },
+    {
+        "scene": 15,
+        "type": "mirror",
+        "robot": "Je termine la croix, en ajoutant ce cube bleu.\n",
+        "worst_NI": "Dans la direction Sud de la croix, place un cube rouge en laissant deux tenons libres.",
+        "best_NI": "Place un cube rouge deux tenons libres au Sud du cube précédent.",
+        "without_context": "Mets un cube rouge; au Sud du cube précédent; en laissant deux tenons libres.\n",
+        "with_context": "Place un cube rouge; au Sud de la croix bleue; en laissant deux tenons libres; le cube rouge doit être centré par rapport à l'axe Nord-Sud de la croix.\n"
+    },
+    {
+        "scene": 16,
+        "type": "original",
+        "robot": "J'achève la croix, avec un cube jaune.\n",
+        "worst_NI": "Place une barre rouge orientée Est-Ouest au Sud de la croix jaune, ayant son côté Ouest aligné sur celui le plus à l'Ouest de la croix jaune et en décalant la barre rouge de deux tenons libres vers le Sud.",
+        "best_NI": "Place une barre rouge orientée Est-Ouest, deux tenons au Sud de la croix jaune. La barre rouge doit être centrée avec l'axe Nord-Sud de la croix jaune.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; au Sud du cube précédent; en laissant deux tenons libres; la barre rouge doit être centré par rapport à l'axe Nord-Sud du cube précédent.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au Sud de la croix jaune; en laissant deux tenons libres.\n"
+    },
+    {
+        "scene": 16,
+        "type": "mirror",
+        "robot": "Avec ce cube rouge je termine la croix.\n",
+        "worst_NI": "Place une barre bleue orientée Est-Ouest au Sud de la croix rouge, ayant son côté Est aligné sur celui le plus à l'Est de la croix rouge et en décalant la barre bleue de deux tenons libres vers le Sud.",
+        "best_NI": "Place une barre bleue orientée Est-Ouest, deux tenons au Sud de la croix rouge. La barre bleue doit être centrée avec l'axe Nord-Sud de la croix rouge.",
+        "without_context": "Place une barre bleue orientée Est-Ouest; au Sud du cube précédent; en laissant deux tenons libres; la barre bleue doit être centré par rapport à l'axe Nord-Sud du cube précédent.\n",
+        "with_context": "Mets une barre bleue orientée Est-Ouest; au Sud de la croix rouge; en laissant deux tenons libres.\n"
+    },
+    {
+        "scene": 17,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute un cube jaune.\n",
+        "worst_NI": "Centre une barre rouge orientée Est-Ouest sur l’axe Nord-Sud de la croix à un tenon au Sud. Puis décale-le vers l'Ouest jusqu’à aligner son bord Est avec le bord le plus à l’Ouest de la croix.",
+        "best_NI": "Place une barre rouge orientée Est-Ouest en la collant au côté Ouest de la croix jaune, puis en décalant de cinq tenons vers le Sud.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; à l'Ouest du cube précédent; en laissant deux tenons libres; et un tenon libre vers le Sud.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au Sud de la croix jaune; son côté Est doit être aligné avec le côté le plus à l'Ouest de la croix; en laissant un tenon libre.\n"
+    },
+    {
+        "scene": 17,
+        "type": "mirror",
+        "robot": "Je pose un cube bleu pour former la croix.\n",
+        "worst_NI": "Centre une barre jaune orientée Est-Ouest sur l’axe Nord-Sud de la croix à un tenon au Sud. Puis décale-le vers l'Est jusqu’à aligner son bord Ouest avec le bord le plus à l’Est de la croix.",
+        "best_NI": "Place une barre jaune orientée Est-Ouest en la collant au côté Est de la croix bleu, puis en décalant de cinq tenons vers le Sud.",
+        "without_context": "Mets une barre jaune orientée Est-Ouest; à l'Est du cube précédent; en laissant deux tenons libres; et un tenon libre vers le Sud.\n",
+        "with_context": "Mets une barre jaune orientée Est-Ouest; au Sud de la croix bleue; son côté Ouest doit être aligné avec le côté le plus à l'Est de la croix; en laissant un tenon libre.\n"
+    },
+    {
+        "scene": 18,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute un cube jaune.\n",
+        "worst_NI": "Colle une barre rouge orientée Est-Ouest au Sud de la croix jaune de manière à la centrer sur l'axe Nord-Sud. Puis décale la barre rouge d'un tenon vers le Sud et de quatre vers l'Ouest. Le côté Est de la barre rouge doit être aligné sur le côté Ouest du dernier cube posé.",
+        "best_NI": "Place le coin Nord-Est d’une barre rouge Est-Ouest au contact du coin Sud-Ouest du cube précédent. Puis déplace-la d'un tenon vers le Sud.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; au Sud du cube précédent; son côté Est doit être aligné avec le côté Ouest du cube précédent; en laissant un tenon libre.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au Sud de la croix jaune; en laissant un tenon libre; et dont le côté Est doit être aligné avec celui le plus à l'Est de la croix. Puis décale-la, de quatre tenons vers l'Ouest.\n"
+    },
+    {
+        "scene": 18,
+        "type": "mirror",
+        "robot": "Je pose un cube rouge pour former la croix.\n",
+        "worst_NI": "Colle une barre bleue orientée Est-Ouest au Sud de la croix rouge de manière à la centrer sur l'axe Nord-Sud. Puis décale la barre bleue d'un tenon vers le Sud et de quatre vers l'Est. Le côté Ouest de la barre bleue doit être aligné sur le côté Est du dernier cube posé.",
+        "best_NI": "Place le coin Nord-Ouest d’une barre bleue Est-Ouest au contact du coin Sud-Est du cube précédent. Puis déplace-la d'un tenon vers le Sud.",
+        "without_context": "Place une barre bleue orientée Est-Ouest; au Sud du cube précédent; son côté Ouest doit être aligné avec le côté Est du cube précédent; en laissant un tenon libre.\n",
+        "with_context": "Mets une barre bleue orientée Est-Ouest; au Sud de la croix rouge; en laissant un tenon libre; et dont le côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix. Puis décale-la, de quatre tenons vers l'Est.\n"
+    },
+    {
+        "scene": 19,
+        "type": "original",
+        "robot": "Avec ce cube jaune je complète la croix.\n",
+        "worst_NI": "Colle une barre rouge au Sud de la croix jaune en la centrant sur l'axe Nord-Sud de la croix. Puis décale-la de trois tenons vers l'Ouest et de deux vers le Sud. Le côté Ouest de la barre rouge doit être aligné sur l'axe Nord-Sud de la croix.",
+        "best_NI": "Colle une barre rouge au Sud du cube précédent en alignant les bords Est, puis décale-la d'un tenon vers l'Ouest et de deux vers le Sud.",
+        "without_context": "Mets une barre rouge orientée Est-Ouest; au Sud du cube précédent; en laissant deux tenons libres; et dont le côté Est doit être aligné avec celui du cube précédent. Puis décale-la, d'un tenon vers l'Ouest.\n",
+        "with_context": "Place une barre rouge orientée Est-Ouest; au Sud de la croix jaune; en laissant deux tenons libres; et dont le côté Est doit être aligné avec celui le plus à l'Est de la croix. Puis décale-la, de trois tenons vers l'Ouest.\n"
+    },
+    {
+        "scene": 19,
+        "type": "mirror",
+        "robot": "J'achève la croix, avec un cube bleu.\n",
+        "worst_NI": "Colle une barre jaune au Sud de la croix bleu en la centrant sur l'axe Nord-Sud de la croix. Puis décale-la de trois tenons vers l'Est et de deux vers le Sud. Le côté Est de la barre jaune doit être aligné sur l'axe Nord-Sud de la croix.",
+        "best_NI": "Colle une barre jaune au Sud du cube précédent en alignant les bords Ouest, puis décale-la d'un tenon vers l'Est et de deux vers le Sud.",
+        "without_context": "Place une barre jaune orientée Est-Ouest; au Sud du cube précédent; en laissant deux tenons libres; et dont le côté Ouest doit être aligné avec celui du cube précédent. Puis décale-la, d'un tenon vers l'Est.\n",
+        "with_context": "Place une barre jaune orientée Est-Ouest; au Sud de la croix bleue; en laissant deux tenons libres; et dont le côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix. Puis décale-la, de trois tenons vers l'Est.\n"
+    },
+    {
+        "scene": 20,
+        "type": "original",
+        "robot": "Pour terminer la croix, je mets un cube jaune ici.\n",
+        "worst_NI": "Place une barre bleue orientée Nord-Sud, pour que sa face Est soit à huit tenons libres à l'Ouest du cube précédent et que les deux pièces soient centrées sur l’axe Est-Ouest.",
+        "best_NI": "Colle une barre bleue orientée Nord-Sud à l'Ouest de la croix jaune en alignant leurs axes Est-Ouest. Puis décale la barre de six tenons vers l'Ouest et de deux vers le Sud.",
+        "without_context": "Place une barre bleue orientée Nord-Sud sur la table; à l'Ouest du cube précédent; en laissant huit tenons libres; la barre bleue doit être centré par rapport à l'axe Est-Ouest du cube précédent.\n",
+        "with_context": "Place une barre bleue orientée Nord-Sud sur la table; à l'Ouest de la croix jaune; en laissant six tenons libres; et dont le côté Nord doit être aligné avec celui le plus au Nord de la croix. Puis décale-la, de deux tenons vers le Sud.\n"
+    },
+    {
+        "scene": 20,
+        "type": "mirror",
+        "robot": "Avec ce cube rouge je termine la croix.\n",
+        "worst_NI": "Place une barre jaune orientée Nord-Sud, pour que sa face Ouest soit à huit tenons libres à l'Est du cube précédent et que les deux pièces soient centrées sur l’axe Est-Ouest.",
+        "best_NI": "Colle une barre jaune orientée Nord-Sud à l'Est de la croix rouge en alignant leurs axes Est-Ouest. Puis décale la barre de six tenons vers l'Est et de deux vers le Sud.",
+        "without_context": "Place une barre jaune orientée Nord-Sud sur la table; à l'Est du cube précédent; en laissant huit tenons libres; la barre jaune doit être centré par rapport à l'axe Est-Ouest du cube précédent.\n",
+        "with_context": "Mets une barre jaune orientée Nord-Sud sur la table; à l'Est de la croix rouge; en laissant six tenons libres; et dont le côté Nord doit être aligné avec celui le plus au Nord de la croix. Puis décale-la, de deux tenons vers le Sud.\n"
+    },
+    {
+        "scene": 21,
+        "type": "original",
+        "robot": "Pour terminer la zone, je mets un cube rouge ici.\n",
+        "worst_NI": "Place un cube bleu en alignant son côté Ouest sur celui le plus à l'Ouest de la croix jaune et son bord Sud sur celui de la zone rouge.",
+        "best_NI": "Place un cube bleu à l'Est du cube précédent en laissant quatre tenons libres. Les bords Sud des deux cubes doivent être alignés.",
+        "without_context": "Mets un cube bleu; à l'Est du cube précédent; en laissant quatre tenons libres vers l'Est.\n",
+        "with_context": "Mets un cube bleu sur la table; son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix; et son côté Sud doit être aligné avec celui de la zone rouge.\n"
+    },
+    {
+        "scene": 21,
+        "type": "mirror",
+        "robot": "Pour terminer la zone, je mets un cube jaune ici.",
+        "worst_NI": "Place un cube rouge en alignant son côté Est sur celui le plus à l'Est de la croix bleu et son bord Sud sur celui de la zone jaune.",
+        "best_NI": "Place un cube rouge à l'Ouest du cube précédent en laissant quatre tenons libres. Les bords Sud des deux cubes doivent être alignés.",
+        "without_context": "Mets un cube rouge; à l'Oust du cube précédent; en laissant quatre tenons libres vers l'Ouest.\n",
+        "with_context": "Mets un cube rouge sur la table; son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix; et son côté Sud doit être aligné avec celui de la zone jaune.\n"
+    },
+    {
+        "scene": 22,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute un cube jaune.\n",
+        "worst_NI": "Place un cube bleu à l’Est de la zone rouge en laissant quatre tenons libres. Son bord Sud doit être aligné sur celui de la zone rouge, et son bord Ouest sur celui du cube précédent.",
+        "best_NI": "Colle un cube entre les branches Sud et Ouest de la croix jaune. Puis décale-le de quatre tenons vers le Sud.",
+        "without_context": "Place un cube bleu sur la table; au Sud du cube précédent; en laissant quatre tenons libres.\n",
+        "with_context": "Mets un cube bleu sur la table; son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix; et son côté Sud doit être aligné avec celui de la zone rouge.\n"
+    },
+    {
+        "scene": 22,
+        "type": "mirror",
+        "robot": "Je pose un cube rouge pour former la croix.\n",
+        "worst_NI": "Place un cube jaune à l’Ouest de la zone bleu en laissant quatre tenons libres. Son bord Sud doit être aligné sur celui de la zone bleu, et son bord Est sur celui du cube précédent.",
+        "best_NI": "Colle un cube entre les branches Sud et Est de la croix rouge. Puis décale-le de quatre tenons vers le Sud.",
+        "without_context": "Place un cube jaune sur la table; au Sud du cube précédent; en laissant quatre tenons libres.\n",
+        "with_context": "Mets un cube jaune sur la table; son côté Est doit être aligné avec celui le plus à l'Est de la croix; et son côté Sud doit être aligné avec celui de la zone bleue.\n"
+    },
+    {
+        "scene": 23,
+        "type": "original",
+        "robot": "Pour terminer la croix, j'ajoute une barre jaune.\n",
+        "worst_NI": "Place un cube bleu avec son bord Nord aligné sur celui du Sud de la zone et son bord Ouest sur celui de la barre jaune précédente.",
+        "best_NI": "Colle un cube bleu sous la partie Sud de la croix, puis déplace-le de quatre tenons au Sud et de deux tenons à l’Est.",
+        "without_context": "Place un cube bleu sur la table; au Sud de la barre précédente; en laissant six tenons libres; et son côté Ouest doit être aligné avec celui de la barre précédente.\n",
+        "with_context": "Place un cube bleu sur la table; son côté Ouest doit être aligné avec celui le plus à l'Ouest de la croix; et son côté Nord doit être aligné avec le côté Sud de la zone rouge.\n"
+    },
+    {
+        "scene": 23,
+        "type": "mirror",
+        "robot": "Pour terminer la croix, j'ajoute une barre bleue.\n",
+        "worst_NI": "Place un cube rouge avec son bord Nord aligné sur celui du Sud de la zone et son bord Est sur celui de la barre bleue précédente.",
+        "best_NI": "Colle un cube rouge sous la partie Sud de la croix, puis déplace-le de quatre tenons au Sud et de deux tenons à l’Ouest.",
+        "without_context": "Place un cube rouge sur la table; au Sud de la barre précédente; en laissant six tenons libres; et son côté Est doit être aligné avec celui de la barre précédente.\n",
+        "with_context": "Place un cube rouge sur la table; son côté Est doit être aligné avec celui le plus à l'Est de la croix; et son côté Nord doit être aligné avec le côté Sud de la zone jaune.\n"
+    },
+    {
+        "scene": 24,
+        "type": "original",
+        "robot": "Pour terminer la zone rouge, je mets un cube rouge ici.\n",
+        "worst_NI": "Place une barre bleue orientée Nord-Sud à six tenons libres à l’Est de la zone rouge. Son bord Sud doit être aligné sur le bord Nord du cube rouge précédemment placé.",
+        "best_NI": "Place une barre bleue orientée Nord-Sud à trois tenons libres de l’extrémité l’Ouest de la croix jaune. Son bord Nord doit être aligné sur le bord Nord de la croix.",
+        "without_context": "Mets une barre bleue orientée Nord-Sud; au Nord du cube précédent; en laissant six tenons libres vers l'Est.\n",
+        "with_context": "Mets une barre bleue orientée Nord-Sud; à l'Ouest de la croix; en laissant trois tenons libres vers l'Ouest.\n"
+    },
+    {
+        "scene": 24,
+        "type": "mirror",
+        "robot": "Pour terminer la zone bleue, je mets un cube bleu ici.\n",
+        "worst_NI": "Place une barre jaune orientée Nord-Sud à six tenons libres à l’Ouest de la zone bleu. Son bord Sud doit être aligné sur le bord Nord du cube bleu précédemment placé.",
+        "best_NI": "Place une barre jaune orientée Nord-Sud à trois tenons libres de l’extrémité l’Est de la croix rouge. Son bord Nord doit être aligné sur le bord Nord de la croix.",
+        "without_context": "Mets une barre jaune orientée Nord-Sud laissant six tenons libres vers l'Est. Puis colle-la, au Nord du cube précédent.\n",
+        "with_context": "Mets une barre jaune orientée Nord-Sud; à l'Est de la croix; en laissant trois tenons libres vers l'Est.\n"
+    }
+]
